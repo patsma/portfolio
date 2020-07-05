@@ -22,12 +22,17 @@
       Items
     }
   }
+
 </script>
 
 <style lang="scss">
   main {
-    padding-top: 75px;
-    padding-bottom: 56px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  a {
+    text-decoration: none;
   }
 
 

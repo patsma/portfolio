@@ -91,10 +91,9 @@
     display: grid;
     grid-auto-flow: column;
     align-content: center;
-    height: 15vmin;
     justify-content: space-evenly;
     width: 100vw;
-    max-height: 100px;
+    height: 60px;
     z-index: 1;
     position: fixed;
     bottom: 0;
