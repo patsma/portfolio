@@ -1,5 +1,4 @@
 <template>
-  <div>
     <header>
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -17,7 +16,6 @@
       </svg>
 
     </header>
-  </div>
 </template>
 
 <script>
@@ -32,6 +30,7 @@
     grid-auto-flow: column;
     align-items: center;
     height: 20vmin;
+    max-height: 100px;
     position: fixed;
     width: 100vw;
     background: #fff;
