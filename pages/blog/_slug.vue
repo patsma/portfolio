@@ -2,11 +2,12 @@
   <article>
     <h1>{{ article.title }}</h1>
     <p>{{ article.description }}</p>
-    <img :src="article.img" :alt="article.alt"/>
+    <img :src="article.img" :alt="article.alt" />
     <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
 
-    <nuxt-content :document="article"/>
-    <pre>{{article}}</pre>
+    <nuxt-content :document="article" />
+
+    <author :author="article.author" />
   </article>
 </template>
 
@@ -25,6 +26,26 @@
     }
   }
 </script>
-<style scoped>
+<style>
+  .nuxt-content h2 {
+    font-weight: bold;
+    font-size: 28px;
+  }
 
+  .nuxt-content h3 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .nuxt-content p {
+    margin-bottom: 20px;
+  }
+
+  .icon.icon-link {
+    background-image: url('~assets/icons/about.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
 </style>

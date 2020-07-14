@@ -58,8 +58,6 @@
     }
 
     img {
-      height: 100%;
-      border: 6px solid #E76F51;
       object-fit: cover;
     }
   }

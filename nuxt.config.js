@@ -8,6 +8,7 @@ export default {
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
+
   target: 'static',
   /*
   ** Headers of the page
@@ -33,7 +34,6 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [],
-  loading: {color: '#000', throttle: 1},
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
@@ -51,8 +51,7 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
-    '@nuxtjs/svg',
-    'nuxt-lazy-load'
+    '@nuxtjs/svg'
   ],
   optimizedImages: {
     optimizeImages: true
