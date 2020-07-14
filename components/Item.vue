@@ -5,7 +5,7 @@
       </slot>
     </div>
     <div class="item__text">
-      <slot name="text">Logo Animation</slot>
+      <slot name="text"></slot>
     </div>
   </div>
 </template>
@@ -38,7 +38,6 @@
     align-content: center;
     letter-spacing: 1.9px;
     font-weight: bold;
-    font-family: sans-serif;
     transition: 0.3s all ease-in-out;
   }
   .item__icon {

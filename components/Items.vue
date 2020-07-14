@@ -8,28 +8,13 @@
         <template #text>Logo animation</template>
       </Item>
     </n-link>
-    <n-link to="banners-animation">
-      <Item>
-        <template #svg>
-          <BannersAnimationIcon/>
-        </template>
-        <template #text>Banners animation</template>
-      </Item>
-    </n-link>
-    <n-link to="svg-animation">
+
+    <n-link to="animations">
       <Item>
         <template #svg>
           <SvgAnimationIcon/>
         </template>
-        <template #text>SVG animation</template>
-      </Item>
-    </n-link>
-    <n-link to="custom-animation">
-      <Item>
-        <template #svg>
-          <CustomAnimationIcon/>
-        </template>
-        <template #text>Custom animation</template>
+        <template #text>Animations</template>
       </Item>
     </n-link>
     <n-link to="websites">

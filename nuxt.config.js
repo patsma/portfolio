@@ -33,6 +33,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [],
+  loading: {color: '#000', throttle: 1},
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
@@ -51,7 +52,11 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     '@nuxtjs/svg',
+    'nuxt-lazy-load'
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

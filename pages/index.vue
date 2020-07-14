@@ -29,10 +29,19 @@
   main {
     padding-top: 60px;
     padding-bottom: 60px;
+    visibility: hidden;
+    opacity: 0;
   }
 
   a {
     text-decoration: none;
+  }
+
+
+  footer .nuxt-link-exact-active {
+    svg > * {
+      fill: #2A9D8F;
+    }
   }
 
 
