@@ -38,8 +38,9 @@
         communication. If needed I have a group of professionals that can help me with almost any task related to IT, so
         Ads, SEO, Marketing, Enterprise Applications/Software, 3D interactive animations and even VR and AI.</p>
 
-      <p>Besides that, I love to take long walks in the forest - sport archery involved, shooting some trees - not
-        animals! I'm a dog guy, a rodents guy (currently 2 lovely Chinchillas) and a passionate reader.</p>
+      <p>Besides that, I love to take long walks in the forest.
+        I'm an amateur archer a dog guy, a rodents guy (currently 2 lovely Chinchillas), and a passionate reader.
+      </p>
 
       <p> Usually reading at least one book per week from programming books, animation ones to Sci-Fi, Fantasy,
         Personal
@@ -80,6 +81,10 @@
     margin: 0 auto;
     max-width: 1024px;
     padding: 120px 1rem;
+  }
+
+  a {
+    color: #E76F51;
   }
 
 </style>

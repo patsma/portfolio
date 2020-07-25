@@ -2,23 +2,60 @@
   <div>
     <Header/>
     <main class="logo-animation">
-      <a href="https://tastysites.pl/dev/animations/blueberry-loader/v5/"><img
-        src="~assets/logo-animation/blueberry.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/frontier-logo-animation/"><img
-        src="~assets/logo-animation/frontier.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/icebergwebdesign/"><img src="~assets/logo-animation/iceberg.png"
-                                                                            alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/working-jobs-vyne/"><img
-        src="~assets/logo-animation/working-vyne.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/inforca/"><img src="~assets/logo-animation/inforca.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/lion/"><img src="~assets/logo-animation/lion.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/signs-animation/"><img src="~assets/logo-animation/symbols.png"
-                                                                           alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/working-solutions/"><img
-        src="~assets/logo-animation/working-solutions.png" alt=""></a>
-      <a href="https://tastysites.pl/dev/animations/yamahata/"><img src="~assets/logo-animation/yamahata.png"
-                                                                    alt=""></a>
-      <a href="https://zaksa-logo-animation.netlify.com/"><img src="~assets/logo-animation/zaksa.png" alt=""></a>
+      <a href="https://tastysites.pl/dev/animations/blueberry-loader/v5/">
+        <img src="~assets/logo-animation/blueberry.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/frontier-logo-animation/">
+        <img src="~assets/logo-animation/frontier.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/icebergwebdesign/">
+        <img src="~assets/logo-animation/iceberg.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/working-jobs-vyne/">
+        <img src="~assets/logo-animation/working-vyne.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/inforca/">
+        <img src="~assets/logo-animation/inforca.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/lion/">
+        <img src="~assets/logo-animation/lion.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/signs-animation/">
+        <img src="~assets/logo-animation/symbols.png" alt="">
+      </a>
+      <a href="https://tastysites.pl/dev/animations/working-solutions/">
+        <img src="~assets/logo-animation/working-solutions.png" alt="">
+      </a>
+      <a href="https://aeroflux-animation.netlify.app/">
+        <img src="~assets/logo-animation/aeroflux.png" alt="">
+      </a>
+      <a href="https://zaksa-logo-animation.netlify.com/">
+        <img src="~assets/logo-animation/zaksa.png" alt="">
+      </a>
+      <a href="https://https://michael-arthur-logo-animation.netlify.app/">
+        <img src="~assets/logo-animation/michael-arthur.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/jWrdZO/dXAqBNQbevqk/">
+        <img src="~assets/logo-animation/milk.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/qBEQbqa/NjrYzWRwJpDA">
+        <img src="~assets/logo-animation/dobra-hipoteka.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/KqdWBd/VJrxxOQZyXnr">
+        <img src="~assets/logo-animation/just-in-mind.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/dzNqxW/LDkmdEQVzpzA">
+        <img src="~assets/logo-animation/fresh.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/wqLWVK/LQkExyOPdLXA">
+        <img src="~assets/logo-animation/morphing.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/rGJQPe/PNrvYKQLVaVM">
+        <img src="~assets/logo-animation/catalyst.png" alt="">
+      </a>
+      <a href="https://cdpn.io/tastysites/debug/aLjgOG/gaMeYzQJPjdM">
+        <img src="~assets/logo-animation/farm-table.png" alt="">
+      </a>
     </main>
     <Footer/>
   </div>
@@ -58,9 +95,9 @@
     }
 
     img {
-      height: 100%;
-      border: 6px solid #E76F51;
       object-fit: cover;
+      height: auto;
+      height: 100%;
     }
   }
 

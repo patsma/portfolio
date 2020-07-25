@@ -52,7 +52,9 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     '@nuxtjs/svg',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    'nuxt-rfg-icon',
+    '@nuxtjs/manifest',
   ],
   optimizedImages: {
     optimizeImages: true
