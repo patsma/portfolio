@@ -1,5 +1,5 @@
 # Portfolio
-Visit http://portfolio-tasty-sites.netlify.app/
+Creating interactive content, SVG animations, animated banners, logos, videos and fancy web stuff including WordPress websites, Vue / Nuxt apps and motion videos
 
 ## Build Setup
 

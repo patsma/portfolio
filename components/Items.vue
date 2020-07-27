@@ -65,7 +65,7 @@
   .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 100vh;
+    min-height: calc(100vh - 120px);
   }
 
   a {

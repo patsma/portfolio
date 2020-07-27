@@ -26,22 +26,7 @@
 </script>
 
 <style lang="scss">
-  main {
-    padding-top: 60px;
-    padding-bottom: 60px;
 
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-
-  footer .nuxt-link-exact-active {
-    svg > * {
-      fill: #000;
-    }
-  }
 
 
 </style>

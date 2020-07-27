@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "deploy": "nuxt build && nuxt export && netlify deploy --prod --dir=dist",
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
