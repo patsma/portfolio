@@ -21,6 +21,7 @@
       <a href="https://sport.trefl.com/"><img src="~assets/websites/trefl.png" alt=""></a>
       <a href="https://zap-black.netlify.com/"><img src="~assets/websites/zap.png" alt=""></a>
       <a href="https://new.achva.ac.il/"><img src="~assets/websites/achva.jpg" alt=""></a>
+      <a href="https://pokoje3city.pl//"><img src="~assets/websites/pokoje3city.png" alt=""></a>
     </main>
     <Footer/>
   </div>
