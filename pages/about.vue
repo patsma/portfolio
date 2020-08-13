@@ -46,7 +46,8 @@
         Personal
         advice, and classical literature.</p>
 
-      <p> Don't hesitate to ask me about anything <a href="mailto:kontakt@tastysites.pl">kontakt@tastysites.pl</a>
+      <p> Don't hesitate to ask me about anything <a
+        href="mailto:tastysites.hello@gmail.com">tastysites.hello@gmail.com</a>
         If you prefer a video chat - no problem</p>
 
       <p> Cheers,<br>
@@ -58,33 +59,33 @@
 </template>
 
 <script>
-  import Header from '~/components/Header.vue'
-  import Footer from '~/components/Footer.vue'
-  import Items from '~/components/Items.vue'
-  import Logo from '~/components/Logo.vue'
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+import Items from '~/components/Items.vue'
+import Logo from '~/components/Logo.vue'
 
-  export default {
-    components: {
-      Logo,
-      Header,
-      Footer,
-      Items
-    }
+export default {
+  components: {
+    Logo,
+    Header,
+    Footer,
+    Items
   }
+}
 </script>
 
 <style scoped lang="scss">
 
-  main {
-    display: grid;
-    grid-gap: 1rem;
-    margin: 0 auto;
-    max-width: 1024px;
-    padding: 120px 1rem;
-  }
+main {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 120px 1rem;
+}
 
-  a {
-    color: #E76F51;
-  }
+a {
+  color: #E76F51;
+}
 
 </style>
