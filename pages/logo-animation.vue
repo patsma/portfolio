@@ -29,7 +29,7 @@
       <a href="https://tastysites.pl/logo-animation/aeroflux">
         <img src="~assets/logo-animation/aeroflux.png" alt="">
       </a>
-      <a href="https://tastysites.pl/logo-animation/zaksa">
+      <a href="./zaksa">
         <img src="~assets/logo-animation/zaksa.png" alt="">
       </a>
       <a href="https://tastysites.pl/logo-animation/michael-arthur/">
