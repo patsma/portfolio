@@ -8,7 +8,10 @@
       </svg>
       <p>Home</p>
     </n-link>
-
+    <n-link to="/logo-animation">
+      <LogoAnimationIcon/>
+      <p>Logos</p>
+    </n-link>
     <n-link to="/animations">
       <svg viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -96,7 +99,7 @@
       </svg>
       <p>UpWork</p>
     </a>
-    <a class="email" href="mailto:tastysites.hello@gmail.com">
+    <a class="email" href="mailto:kontakt@tastysites.pl">
       <svg viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M29.8928 0H1.10716C0.495684 0 0 0.492487 0 1.09996V20.9C0 21.5075 0.495684 22 1.10716 22H29.8928C30.5043 22 31 21.5075 31 20.9V1.09996C31 0.492487 30.5043 0 29.8928 0ZM28.0771 2.19998L15.5 11.8118L2.92286 2.19998H28.0771ZM28.7857 19.8H2.21426V4.43406L14.8258 14.0723C15.2234 14.3756 15.7766 14.3756 16.1742 14.0723L28.7857 4.43406V19.8Z"
@@ -109,11 +112,14 @@
 </template>
 
 <script>
+import LogoAnimationIcon from "~/assets/icons/logo-animation.svg?inline";
+
 import MenuToggle from "~/components/MenuToggle";
 
 export default {
   components: {
-    MenuToggle
+    MenuToggle,
+    LogoAnimationIcon
   }
 }
 </script>
@@ -122,10 +128,9 @@ export default {
 a {
   display: grid;
   align-content: center;
-  padding: 4vmin;
   justify-content: center;
   justify-items: center;
-  grid-gap: 4vmin;
+  grid-gap: 3vmin;
 
   :not(svg) {
     color: #fff;
@@ -136,31 +141,59 @@ a {
 }
 
 svg {
-  width: 100px;
-  height: 100px;
-
+  width: 50px;
+  height: 50px;
+  @media screen and (min-width: $mobile) {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 nav {
   background: #E76F51;
   display: grid;
+  padding: 1vmin;
   align-content: space-around;
   justify-content: space-evenly;
   width: 100vw;
-  height: 400px;
+  height: calc(100vh - 60px);
   z-index: 1;
   position: fixed;
   grid-gap: 4vmin;
   top: 60px;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   visibility: hidden;
   opacity: 0;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 
 
-}
+  @media screen and (min-width: $mobile) {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
-.email {
-  //grid-column: -1/1;
+  }
+
+  @media screen and (min-width: $tablet) {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    height: 50VH;
+
+  }
+
+  @media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 880px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    svg {
+
+      @media screen and (min-width: $mobile) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
 }
 
 

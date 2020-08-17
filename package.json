@@ -21,6 +21,7 @@
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.0.1",
     "@nuxt/types": "^2.13.3",
+    "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/svg": "^0.1.11",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.0",

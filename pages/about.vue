@@ -47,7 +47,7 @@
         advice, and classical literature.</p>
 
       <p> Don't hesitate to ask me about anything <a
-        href="mailto:tastysites.hello@gmail.com">tastysites.hello@gmail.com</a>
+        href="mailto:kontakt@tastysites.pl">kontakt@tastysites.pl</a>
         If you prefer a video chat - no problem</p>
 
       <p> Cheers,<br>

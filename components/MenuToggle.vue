@@ -19,15 +19,11 @@ let masterTl = gsap.timeline()
 export default {
   methods: {
     openMenu() {
-      console.log('trigger menu 3')
-
       masterTl.reversed(!masterTl.reversed())
-
     }
   },
   mounted() {
     function menuTimeline() {
-      console.log('trigger menu 1')
       const tl = gsap.timeline()
       tl
         .to('nav', {duration: 0.1, autoAlpha: 1})
@@ -38,7 +34,6 @@ export default {
       return tl
     }
 
-    console.log('trigger menu 2')
 
     masterTl.add(menuTimeline())
     masterTl.reverse()
@@ -63,7 +58,7 @@ svg {
 }
 
 button:focus {
-  outline: 4px solid #E76F51;
+  outline: 2px solid #fff;
 }
 
 .menu {
@@ -80,7 +75,7 @@ button:focus {
 
 .line {
   fill: none;
-  stroke: black;
+  stroke: #fff;
   stroke-width: 6;
   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
   stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);

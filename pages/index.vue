@@ -4,7 +4,6 @@
     <main>
       <Items/>
     </main>
-    <Footer/>
   </div>
 </template>
 

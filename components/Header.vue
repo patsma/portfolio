@@ -32,7 +32,7 @@ header {
   z-index: 2;
   position: fixed;
   width: 100vw;
-  background: #fff;
+  background: #264653;
 }
 
 </style>

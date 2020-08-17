@@ -55,7 +55,9 @@ export default {
   /*
   ** Global CSS
   */
-  css: [],
+  css: [
+    '~assets/scss/global.scss'
+  ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
@@ -74,6 +76,11 @@ export default {
   /*
   ** Nuxt.js modules
   */
+
+  styleResources: {
+    scss: ['./assets/scss/*.scss']
+  },
+
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -82,6 +89,7 @@ export default {
     '@nuxtjs/svg',
     'nuxt-lazy-load',
     '@nuxtjs/manifest',
+    '@nuxtjs/style-resources',
     // With options
     ['nuxt-rfg-icon', {
       masterPicture: 'static/icon.png',

@@ -1,0 +1,23 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    visibility: hidden;
+}
+
+.svg-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+    align-self: center;
+}
+
+.svg-wrapper svg {
+    width: 90vw;
+}
