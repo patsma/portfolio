@@ -6,3 +6,34 @@ $hd: 1919px;
 
 // Colors
 $white: #fff;
+
+
+main.default {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+
+  @media screen and (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  a {
+    height: 100%;
+  }
+
+
+  img, svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    //border: 4px solid transparent;
+    transition: 0.3s all ease-in;
+
+    &:hover {
+      //border: 4px solid red;
+    }
+  }
+}
+
+
+

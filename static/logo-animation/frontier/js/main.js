@@ -1,5 +1,5 @@
 (function () {
-    // GSDevTools.create();
+    // GSDevTools.create({minimal: true});
     MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
     TweenLite.set('body', {visibility: 'visible'});
 
@@ -20,7 +20,7 @@
     const companies = selectAll('#companies >path');
     const moon__left = select('#moon__left');
     const moon__right = select('#moon__right-2');
-    GSDevTools.create();
+    GSDevTools.create({minimal: true});
 
     const animateLogo = new TimelineMax();
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header/>
-    <main class="logo-animation">
+    <main class="default logo-animation">
       <a href="https://tastysites.pl/logo-animation/blueberry">
         <img src="~assets/logo-animation/blueberry.png" alt="">
       </a>
@@ -81,29 +81,5 @@ export default {
 </script>
 
 <style lang="scss">
-.logo-animation {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-
-  @media screen and (min-width: 800px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  a {
-    height: 100%;
-  }
-
-  img {
-    object-fit: cover;
-    height: auto;
-    height: 100%;
-  }
-}
-
-img {
-  width: 100%;
-}
-
 
 </style>

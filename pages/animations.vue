@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header/>
-    <main class="logo-animation">
+    <main class="default animations">
       <a href="./audiologist"><img src="~assets/animations/audiologist.png" alt=""></a>
       <a href="./bartender"><img
         src="~assets/animations/bartender.png" alt=""></a>
@@ -58,18 +58,6 @@ export default {
 </script>
 
 <style lang="scss">
-.logo-animation {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  @media screen and (min-width: 800px) {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-img {
-  width: 100%;
-}
 
 
 </style>
