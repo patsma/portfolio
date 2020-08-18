@@ -1,0 +1,7 @@
+body{
+  background:#23bccc;
+}
+
+#textGroupJust > path,#textGroupJustIn > path,#textGroupMind > path,#circleGroup * circle{
+  visibility:hidden;
+}

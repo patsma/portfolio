@@ -1,0 +1,178 @@
+
+svg {
+    height: 80vh;
+    width: 90vw;
+}
+
+.grid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.st0 {
+    fill: #82878C;
+}
+
+
+.st2 {
+    font-size: 18px;
+}
+
+
+.st4 {
+    font-size: 15px;
+}
+
+.st5 {
+    fill: #A6ABB3;
+}
+
+.st6 {
+    fill: #216DD9;
+}
+
+.st7 {
+    fill: #9FA8DA;
+}
+
+.st8 {
+    fill: #80DEEA;
+}
+
+.st9 {
+    fill: #69F0AE;
+}
+
+.st10 {
+    fill: #FFCC80;
+}
+
+.st11 {
+    fill: #EF9A9A;
+}
+
+.st12 {
+    fill: #F7FAFC;
+}
+
+.st13 {
+    font-size: 12px;
+}
+
+.st14 {
+    fill: none;
+}
+
+.st15 {
+    fill: none;
+    stroke: #A6ABB3;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+
+#moleculeLarge,
+#boomGroup path {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+#laserBezier {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+
+.cursorFirst,
+.cursorSecond {
+    background: rgb(33, 109, 217);
+    padding: 0 !important;
+    visibility: hidden;
+}
+
+
+#moleculePreloaderYellow,
+#moleculePreloaderGreen,
+#moleculePreloaderRed,
+#moleculePreloaderBlue,
+#moleculePreloaderPurple,
+#topCutCircles,
+#bottomCutCircles,
+#spectrometerBody,
+#boomGroup path,
+.cls-7,
+.companyText,
+.companyInfoTopLeft,
+#bond-01,
+#bond-02,
+#bond-03,
+#bond-04,
+#particle-01-yellow,
+#particle-02-blue,
+#particle-03-red,
+#particle-04-green,
+#particle-05-purple,
+#laserBlur,
+.dynamicCompanyDataTopLeftWebsite,
+#laserParticles path,
+#laserParticles,
+#purpleParticleAfterBreak,
+#blueParticleAfterBreak,
+#greenParticleAfterBreak,
+#yellowParticleAfterBreak,
+#redParticleAfterBreak,
+.cls-35,
+#finishedParticles path,
+#preloaderDotsGroup,
+#topPhrases > text:nth-child(1),
+#topPhrases > text:nth-child(2),
+#topPhrases > text:nth-child(3),
+#topPhrases > text:nth-child(4),
+#topPhrases > text:nth-child(5),
+#laserBezier,
+.dynamicCompanyDataTopLeft,
+#preloadetTwo,
+#topPhrases,
+#otherPhrasesGroup,
+#moplecule-small-two,
+#bars,
+#resultsText path,
+#scaleBottomLines path,
+#scaleLeftLines path,
+#colour-01,
+#colour-02,
+#colour-03,
+#colour-04,
+#colour-05,
+#cursorFirst,
+.charsFirst,
+.charsSecond,
+#cursorSecond,
+#linesPathFinal,
+#bezierLines,
+#statistics,
+path#laserBezier,
+.statistics-background,
+#textWrapperFirst,
+#textWrapperSecond {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+

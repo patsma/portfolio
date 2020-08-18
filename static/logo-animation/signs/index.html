@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        @-webkit-keyframes hideshow {
+            0% {
+                opacity: 0
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes hideshow {
+            0% {
+                opacity: 0
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes kaboom {
+            50% {
+                -webkit-transform: scale(0.25);
+                        transform: scale(0.25);
+            }
+            100% {
+                -webkit-transform: scale(0.4);
+                        transform: scale(0.4);
+            }
+        }
+
+        @keyframes kaboom {
+            50% {
+                -webkit-transform: scale(0.25);
+                        transform: scale(0.25);
+            }
+            100% {
+                -webkit-transform: scale(0.4);
+                        transform: scale(0.4);
+            }
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        .outer-wrapper {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+
+        div.outer-wrapper {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 500px;
+            -webkit-animation: kaboom 10s 0s ease-in-out alternate infinite;
+                    animation: kaboom 10s 0s ease-in-out alternate infinite;
+            position: absolute;
+            top: -80px;
+            left: 0;
+            z-index: -10;
+        }
+        /*.tables-btn {
+            background-color: #fff;
+            box-shadow: none;
+            border: 7px solid;
+            padding: 20px;
+            border-left-color: #F1C325;
+            border-top-color: #54A3DA;
+            border-right-color: #EA6840;
+            border-bottom-color: #83C341;
+            border-radius: 17px;
+            transition: 0.2s all ease-in-out;
+            cursor: pointer;
+            font-family: cursive;
+        }
+
+        .tables-btn:hover {
+            border-left-color: #54A3DA;
+            border-top-color: #F1C325;
+            border-right-color: #83C341;
+            border-bottom-color: #EA6840;
+        }*/
+
+        g#addition {
+            opacity: 1;
+            -webkit-animation: hideshow 10s 0s ease-in-out infinite;
+                    animation: hideshow 10s 0s ease-in-out infinite;
+        }
+
+        g#subtraction {
+            opacity: 0;
+            -webkit-animation: hideshow 10s 1s ease-in-out infinite;
+                    animation: hideshow 10s 1s ease-in-out infinite;
+        }
+
+        g#multiplication {
+            opacity: 0;
+            -webkit-animation: hideshow 10s 2s ease-in-out infinite;
+                    animation: hideshow 10s 2s ease-in-out infinite;
+        }
+
+        g#division {
+            opacity: 0;
+            -webkit-animation: hideshow 10s 3s ease-in-out infinite;
+                    animation: hideshow 10s 3s ease-in-out infinite;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div style="display:flex;justify-content:center;" class="outter-wrapper">
+        <!-- <a href="http://www.patryksmakosz.com/tablesteacher">
+            <button class="tables-btn">EXCRESISES</button>
+        </a> -->
+        <div class="wrapper">
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 396.5 381.2" xml:space="preserve" enable-background="new 0 0 396.5 381.2">
+                <style type="text/css">
+                    .st0 {
+                        fill: #F1C325;
+                    }
+
+                    .st1 {
+                        fill: #FFFFFF;
+                    }
+
+                    .st2 {
+                        fill: #54A3DA;
+                    }
+
+                    .st3 {
+                        fill: #EA6840;
+                    }
+
+                    .st4 {
+                        fill: #83C341;
+                    }
+                </style>
+                <g id="division">
+                    <rect id="divi_x5F_bgc" x="212.5" y="205.2" class="st0" width="123.8" height="123.8" />
+                    <g id="divi_sign">
+                        <path id="XMLID_260_" class="st1" d="M262 314h-5.6l30.5-93.8h5.5L262 314z" />
+                    </g>
+                </g>
+                <g id="addition">
+                    <rect id="addi_x5F_bgc" x="58.8" y="53.2" class="st2" width="123.8" height="123.8" />
+                    <g id="addi_sign">
+                        <path id="XMLID_255_" class="st1" d="M122.9 81.3v31.6h31v4.5h-31V149h-4.4v-31.5h-31v-4.5h31V81.3H122.9z" />
+                    </g>
+                </g>
+                <g id="subtraction">
+                    <rect id="subt_x5F_bgc" x="213.3" y="54.2" class="st3" width="123.8" height="123.8" />
+                    <g id="subt_sign">
+                        <path id="XMLID_250_" class="st1" d="M261.4 119.2V113h27.7v6.2H261.4z" />
+                    </g>
+                </g>
+                <g id="multiplication">
+                    <rect id="multi_x5F_bgc" x="59.1" y="205.2" class="st4" width="123.8" height="123.8" />
+                    <g id="multi_sign">
+                        <path id="XMLID_245_" class="st1" d="M91.3 308.1l25.4-41.9L93 226.1h8.3l19.6 33 19.6-33h8L125 265.8l25.8 42.3h-8.6l-21.4-35.8 -21.3 35.8H91.3z" />
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+    </div>
+</body>
+
+</html>

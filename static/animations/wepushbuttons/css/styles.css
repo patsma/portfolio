@@ -1,0 +1,80 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+.wrapper-homepage-animation-ps {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+
+.wrapper-homepage-animation-ps svg {
+    pointer-events: none;
+
+}
+
+.clouds {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    z-index: -1;
+}
+
+.clouds svg {
+    width: 100vw;
+
+}
+
+.ground {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.ground svg {
+    width: 100vw;
+}
+
+
+.scene {
+    position: relative;
+    width: 100vw;
+    top: 0;
+    z-index: 0;
+}
+
+
+.gs-dev-tools {
+    top: 0 !important;
+    bottom: unset !important;
+    opacity: 0;
+    z-index: 10;
+    /*display: none!important;*/
+
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .scene svg {
+        transform: translate(0, -100px);
+
+    }
+
+    .ground svg {
+
+        transform: translate(0, -120px);
+    }
+
+}

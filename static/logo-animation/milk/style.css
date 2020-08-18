@@ -1,0 +1,43 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  
+}
+svg{
+      width: 50vw;
+    height: 100vh;
+}
+.st0 {
+  display: none;
+  fill: #f29ac1;
+}d
+.st1 {
+  fill: #ffffff;
+}
+.st2 {
+  fill: #010101;
+}
+.st3 {
+  fill: #d52730;
+}
+.st4 {
+  fill: #333634;
+}
+.st5 {
+  fill: #9dc33b;
+}
+
+#IloveMilk {
+  visibility: hidden;
+}
+#slider {
+  width: 420px;
+  margin: 20px auto;
+}
+.container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}

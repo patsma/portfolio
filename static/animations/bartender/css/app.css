@@ -1,0 +1,96 @@
+:root {
+    --main-color: #008EBD;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gotham';
+
+    src: url('../fonts/gotham.ttf') format('truetype');
+
+}
+
+html, h1, p {
+    font-family: 'Gotham', sans-serif;
+    color: var(--main-color);
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.main-title-grid {
+    padding: 2.5vh 0;
+    display: grid;
+    grid-template-rows: auto auto 2px;
+}
+
+.main-title-separator {
+    width: 100%;
+    background-color: var(--main-color);
+    height: 2px;
+    margin-top: 1.5vh;
+}
+
+.main-title-grid p {
+    font-size: 3rem;
+    padding: 0;
+}
+
+.animation-container {
+    transform: translate(0, -50%);
+    visibility: hidden;
+}
+
+.padding-bottom--5 {
+    margin-bottom: 5vh;
+}
+
+.padding-bottom--2 {
+    margin-bottom: 1.5vh;
+}
+
+.scene-text p {
+    font-size: 29px;
+}
+.texts-wrapper{
+    position: relative;
+}
+.scene02-text,.scene03-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.scene-text__number {
+    color: #fff;
+    background: var(--main-color);
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 29px;
+    font-family: 'Gotham', sans-serif;
+    margin-bottom: 2.5vh;
+}
+
+#scene02-rectangle-to-be-morphed,#scene03-morph-to-message{
+    visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+    .animation-container {
+        transform: translate(0, -50%);
+    }
+    .texts-wrapper{
+        margin-bottom: 3vh;
+    }
+    .main-title-grid p {
+        font-size: 2rem;
+        padding: 0;
+    }
+}

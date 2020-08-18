@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: inherit;
+    margin: inherit;
+}
+
+.scene {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene:nth-child(even) {
+    background: #fff;
+
+}
+
+.scene:nth-child(odd) {
+    background: #f7f7f7;
+
+}
+
+.parallax__animation__wrapper {
+    width: 100%;
+
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.animation__inner_wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+svg {
+    transform: scale(0.6);
+}
+
+#create__relevent__content__based__on__iintent__signal__activity__group > g > path:nth-child(2),
+#prioritize__and__expand__my__account__base__group > g > path:nth-child(2),
+#fuel__my__abm__strategies__group > g > path:nth-child(2),
+#shorten__my__sales__cycles__group > g > path:nth-child(2),
+#get__higher__response__rates__for__my__email__initiatives__group > g > path:nth-child(2),
+#give__me__higher__conversion__rates__group > g > path:nth-child(2),
+#lead__generation__services__group > g > path:nth-child(2), #marketing__effectiveness, #demand__generation, #sales__enablement {
+    pointer-events: none;
+}
+
+#create__relevent__content__based__on__iintent__signal__activity,
+#create__relevent__content__based__on__iintent__signal__activity__group__background,
+#create__relevent__content__based__on__iintent__signal__activity__plus,
+#prioritize__and__expand__my__account__base,
+#prioritize__and__expand__my__account__base__group__background,
+#prioritize__and__expand__my__account__base__plus,
+#fuel__my__abm__strategies,
+#fuel__my__abm__strategies__group__background,
+#fuel__my__abm__strategies__plus,
+#shorten__my__sales__cycles,
+#shorten__my__sales__cycles__group__background,
+#shorten__my__sales__cycles__plus,
+#get__higher__response__rates__for__my__email__initiatives,
+#get__higher__response__rates__for__my__email__initiatives__group__background,
+#get__higher__response__rates__for__my__email__initiatives__plus,
+#give__me__higher__conversion__rates,
+#give__me__higher__conversion__rates__group__background,
+#give__me__higher__conversion__rates__plus,
+#marketing__effectiveness__group,
+#demand__generation__group,
+#sales__enablement__group {
+    transition: 0.3s all ease-in-out;
+
+}
+
+#marketing__effectiveness__group,
+#demand__generation__group,
+#sales__enablement__group,
+#marketing__effectiveness,
+#demand__generation,
+#sales__enablement
+{
+    transition: 0.3s all ease-in-out;
+    padding: 2rem;
+    cursor: pointer;
+
+}
+a{
+    cursor: pointer;
+}
+
+
+#marketing__effectiveness__group:hover > #marketing__effectiveness,
+#demand__generation__group:hover > #demand__generation,
+#sales__enablement__group:hover > #sales__enablement {
+    transform: translate(0, -10%);
+}
+
+#create__relevent__content__based__on__iintent__signal__activity__group:hover > #create__relevent__content__based__on__iintent__signal__activity,
+#create__relevent__content__based__on__iintent__signal__activity__group:hover > g > #create__relevent__content__based__on__iintent__signal__activity__plus,
+#prioritize__and__expand__my__account__base__group:hover > #prioritize__and__expand__my__account__base,
+#prioritize__and__expand__my__account__base__group:hover > g > #prioritize__and__expand__my__account__base__plus,
+#fuel__my__abm__strategies__group:hover > #fuel__my__abm__strategies,
+#fuel__my__abm__strategies__group:hover > g > #fuel__my__abm__strategies__plus,
+#shorten__my__sales__cycles__group:hover > #shorten__my__sales__cycles,
+#shorten__my__sales__cycles__group:hover > g > #shorten__my__sales__cycles__plus,
+#get__higher__response__rates__for__my__email__initiatives__group:hover > #get__higher__response__rates__for__my__email__initiatives,
+#get__higher__response__rates__for__my__email__initiatives__group:hover > g > #get__higher__response__rates__for__my__email__initiatives__plus,
+#give__me__higher__conversion__rates__group:hover > #give__me__higher__conversion__rates,
+#give__me__higher__conversion__rates__group:hover > g > #give__me__higher__conversion__rates__plus {
+    fill: #fff;
+    pointer-events: none;
+
+}
+
+#create__relevent__content__based__on__iintent__signal__activity__group:hover > g > #create__relevent__content__based__on__iintent__signal__activity__group__background,
+#prioritize__and__expand__my__account__base__group:hover > g > #prioritize__and__expand__my__account__base__group__background,
+#fuel__my__abm__strategies__group:hover > g > #fuel__my__abm__strategies__group__background,
+#shorten__my__sales__cycles__group:hover > g > #shorten__my__sales__cycles__group__background,
+#get__higher__response__rates__for__my__email__initiatives__group:hover > g > #get__higher__response__rates__for__my__email__initiatives__group__background,
+#give__me__higher__conversion__rates__group:hover > g > #give__me__higher__conversion__rates__group__background {
+    fill: #0C86BC;
+    pointer-events: none;
+
+}
+
+#create__relevent__content__based__on__iintent__signal__activity__background:hover,
+#prioritize__and__expand__my__account__base__background:hover,
+#fuel__my__abm__strategies__background:hover,
+#shorten__my__sales__cycles__background:hover,
+#get__higher__response__rates__for__my__email__initiatives__background:hover,
+#give__me__higher__conversion__rates__background:hover {
+
+    fill: #0C86BC;
+    cursor: pointer;
+}
+
+#lead__generation__services__group {
+    cursor: pointer;
+}

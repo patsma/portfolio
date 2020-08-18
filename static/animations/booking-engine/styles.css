@@ -1,0 +1,41 @@
+
+:root {
+    --white: #fff;
+    --black: #070707;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+html {
+    overflow-x: hidden;
+    background: var(--white);
+    font-style: normal;
+}
+
+
+svg {
+    width: 100vw;
+    height: 90vh;
+    pointer-events: none;
+}
+
+
+.wrapper {
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: grid;
+    visibility: hidden;
+    align-content: center;
+    height: 100vh;
+}
+
+

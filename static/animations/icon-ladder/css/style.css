@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #fff;
+    margin: 0 auto;
+}
+
+svg {
+    width: 90vw;
+}
+
+/*#keyword {*/
+    /*opacity: 0;*/
+    /*visibility: hidden;*/
+/*}*/

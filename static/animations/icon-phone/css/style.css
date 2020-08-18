@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #fff;
+    margin: 0 auto;
+}
+
+svg {
+    width: 90vw;
+}
+
+#social01, #social02, #social03, #car01, #car02, #car03 {
+    opacity: 0;
+    visibility: hidden;
+}

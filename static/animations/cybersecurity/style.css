@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #39c1d1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.scene {
+    /*height: 100vh;*/
+}

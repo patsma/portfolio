@@ -1,0 +1,138 @@
+/*region LAYOUT*/
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*height: 900%;*/
+
+}
+
+body {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container-fluid, .col-md-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*endregion*/
+
+/*region LOADER*/
+
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.loader {
+    margin: 60px auto;
+    font-size: 10px;
+    position: fixed;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(103, 194, 148, 0.22);
+    border-right: 1.1em solid rgba(103, 194, 148, 0.22);
+    border-bottom: 1.1em solid rgba(103, 194, 148, 0.22);
+    border-left: 1.1em solid #65c294;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#loadingDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/*endregion*/
+
+.front {
+    position: absolute;
+    left: 0;
+    /*right: 0;*/
+    /*top:0;*/
+    /*bottom: 0;*/
+}
+
+#heading-thanks-to, #heading-pure, #heading-predictable, #heading-planet-friendly, #footer-grass, #yeast-finished, #earth-icon, #Special_Coating_Ellipse_, #Special_Coating_Ellipse_02, #Special_Coating_Ellipse_03, #Special_Coating_Ellipse_04, #Special_Coating_Ellipse_05, #Special_Coating_Ellipse_06, #SpecialCoating01, #SpecialCoating02, #SpecialCoating03 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#earth_icon,
+#InnerPatternPath01,
+#InnerPatternPath02,
+#InnerPatternPath03,
+#InnerPatternPath04,
+#InnerPatternPath05,
+#InnerPatternPath06,
+#InnerBackground02 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#scene0702pin{
+    top:-3%;
+}
+
+.relative {
+    position: relative;
+
+}
+
+#footer-grass {
+    /* position: fixed; */
+    bottom: -2vh;
+    width: 100vw;
+    /* z-index: 9999999; */
+    /* background: #f0f9f5; */
+    /* opacity: 0; */
+    /* margin-top: -22vh!important; */
+    position: fixed;
+    left: 0;
+}
+
+#background-conclusion {
+
+    width: auto;
+}

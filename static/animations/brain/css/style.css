@@ -1,0 +1,12 @@
+.animated-icon {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+body{
+    overflow: hidden;
+}
+.animated-icon svg {
+    width: 400px;
+}

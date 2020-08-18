@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 605">
+  <defs>
+    <style>
+      .scene01-content-1 {
+        fill: #65c294;
+      }
+
+      .scene01-content-2 {
+        font-size: 30px;
+        fill: #246554;
+        font-family: BrandonGrotesque-Bold, Brandon Grotesque;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+      }
+
+      .scene01-content-3 {
+        letter-spacing: 0.06em;
+      }
+
+      .scene01-content-4 {
+        letter-spacing: 0.1em;
+      }
+
+      .scene01-content-5 {
+        letter-spacing: 0.13em;
+      }
+
+      .scene01-content-6 {
+        letter-spacing: 0.08em;
+      }
+
+      .scene01-content-7 {
+        letter-spacing: 0.09em;
+      }
+
+      .scene01-content-8 {
+        letter-spacing: 0.05em;
+      }
+
+      .scene01-content-9 {
+        letter-spacing: 0.07em;
+      }
+
+      .scene01-content-10 {
+        font-size: 24px;
+        fill: #fff;
+        font-family: BrandonGrotesque-Regular, Brandon Grotesque;
+      }
+
+      .scene01-content-11 {
+        letter-spacing: -0.02em;
+      }
+
+      .scene01-content-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .scene01-content-13 {
+        letter-spacing: 0em;
+      }
+
+      .scene01-content-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .scene01-content-15 {
+        letter-spacing: 0em;
+      }
+
+      .scene01-content-16 {
+        letter-spacing: -0.01em;
+      }
+
+      .scene01-content-17 {
+        font-size: 17px;
+        letter-spacing: 0.15em;
+      }
+
+      .scene01-content-18 {
+        letter-spacing: 0.14em;
+      }
+
+      .scene01-content-19 {
+        letter-spacing: 0.15em;
+      }
+
+      .scene01-content-20 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>scene01-content</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect id="BACKGROUND_Rectangle_" data-name="BACKGROUND &lt;Rectangle&gt;" class="scene01-content-1" width="1024" height="605"/>
+      <text class="scene01-content-2" transform="translate(177.5 256.08)">PURE. PREDIC<tspan class="scene01-content-3" x="234.06" y="0">T</tspan><tspan class="scene01-content-4" x="250.95" y="0">ABLE. P</tspan><tspan class="scene01-content-5" x="374.58" y="0">L</tspan><tspan x="393.69" y="0">ANE</tspan><tspan class="scene01-content-6" x="463.4" y="0">T</tspan><tspan class="scene01-content-7" x="480.71" y="0">-</tspan><tspan x="494.45" y="0">FRIEND</tspan><tspan class="scene01-content-8" x="621.71" y="0">L</tspan><tspan class="scene01-content-9" x="638.39" y="0">Y</tspan><tspan x="657.89" y="0">.</tspan></text>
+      <text class="scene01-content-10" transform="translate(237.44 319.5)"><tspan class="scene01-content-11">N</tspan><tspan x="18.12" y="0">obel </tspan><tspan class="scene01-content-12" x="62.66" y="0">P</tspan><tspan class="scene01-content-13" x="76.44" y="0">rize-winning technology and decades of experience </tspan><tspan x="75.19" y="31">allows us to ma</tspan><tspan class="scene01-content-14" x="214.41" y="31">k</tspan><tspan x="224.97" y="31">e pu</tspan><tspan class="scene01-content-15" x="264.47" y="31">r</tspan><tspan x="272.42" y="31">e p</tspan><tspan class="scene01-content-15" x="300.28" y="31">r</tspan><tspan x="308.23" y="31">oducts efficientl</tspan><tspan class="scene01-content-16" x="457.67" y="31">y</tspan><tspan x="468.5" y="31">.</tspan><tspan class="scene01-content-17"><tspan x="77.86" y="151">SCROLL </tspan><tspan class="scene01-content-18" x="162.45" y="151">T</tspan><tspan class="scene01-content-19" x="172.92" y="151">O EXPERIENCE OUR PROCESS</tspan></tspan></text>
+      <g id="LEAF_Group_" data-name="LEAF &lt;Group&gt;">
+        <path class="scene01-content-20" d="M475.14,165.23S473.5,128.68,506,122s42.69-9.51,47.08-15.89c0,0-4.69,21.6-17.84,37.46-12.09,14.57-33.6,17.51-48.51,5.85q-.57-.45-1.13-.92"/>
+        <path class="scene01-content-20" d="M470.73,139.13s-4.88-27.89,25.6-31.28c13.4-1.49,28.09,2.22,44.82-1"/>
+      </g>
+    </g>
+  </g>
+</svg>

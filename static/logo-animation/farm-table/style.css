@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  overflow: hidden;
+  background-color: #EDEDED;
+}
+
+.container{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  align-content:center;
+}
+
+.container >*{
+  width: 900px;
+}
+
+.controls{
+      position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    font-size: 0.7rem;
+    list-style: none;
+    top: 0;
+    left: 0;
+  opacity: 0.8;
+  
+}
+#logoContainer{
+  opacity: 0;
+  visibility: hidden;
+}

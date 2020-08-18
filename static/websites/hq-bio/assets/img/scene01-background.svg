@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 605">
+  <defs>
+    <style>
+      .scene01-background-1 {
+        fill: #65c294;
+      }
+    </style>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect id="BACKGROUND_Rectangle_" data-name="BACKGROUND &lt;Rectangle&gt;" class="scene01-background-1" width="2400" height="605"/>
+    </g>
+  </g>
+</svg>

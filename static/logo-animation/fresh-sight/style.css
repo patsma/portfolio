@@ -1,0 +1,19 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+
+}
+#freshshightGroup path,#iris{
+  opacity: 0;
+}
+#eyelids path {
+  stroke-width:5px;
+}

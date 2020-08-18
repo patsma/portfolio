@@ -1,0 +1,77 @@
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#green__text,
+#red__text,
+#blue__text {
+    cursor: pointer;
+
+}
+
+
+.fidelis-svg-wrapper {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+#circle-left, #circle-right {
+    width: 100%;
+}
+
+#circle-left svg {
+    width: 100%;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+#circle-right svg {
+    width: 100%;
+    min-height: 200px;
+    min-width: 450px;
+}
+
+
+#blueIconCenter,
+#redIconCenter,
+#greenIconCenter {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #circle-left svg {
+        min-width: 100px;
+    }
+
+    #circle-right svg {
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fidelis-svg-wrapper {
+        grid-auto-flow: row;
+    }
+
+    #circle-left svg {
+        min-width: 200px;
+        height: 200px;
+    }
+
+    #circle-right svg {
+        min-width: 100%;
+    }
+}

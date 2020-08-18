@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #fff;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 85vw;
+}
+
+#penguin{
+    opacity: 0;
+    visibility: hidden;
+}
