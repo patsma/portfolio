@@ -3,8 +3,7 @@
     <Header/>
     <main class="default animations">
       <a href="https://tastysites.pl/animations/audiologist"><img src="~assets/animations/audiologist.png" alt=""></a>
-      <a href="https://tastysites.pl/animations/bartender"><img
-        src="~assets/animations/bartender.png" alt=""></a>
+      <a href="https://tastysites.pl/animations/bartender"><img src="~assets/animations/bartender.png" alt=""></a>
       <a href="https://tastysites.pl/animations/blood"><img src="~assets/animations/blood.png" alt=""></a>
       <a href="https://tastysites.pl/animations/booking-engine"><img src="~assets/animations/booking.png" alt=""></a>
       <a href="https://tastysites.pl/animations/brain"><img src="~assets/animations/brain.png" alt=""></a>
