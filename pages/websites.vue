@@ -10,7 +10,7 @@
       <a href="https://ecoszczoteczki.pl/"><img src="~assets/websites/ecoszczoteczki.png" alt=""></a>
       <a href="https://ficlinic.pl/"><img src="~assets/websites/ficlinic.png" alt=""></a>
       <a href="http://gmtsameday.co.uk/"><img src="~assets/websites/gmtsameday.png" alt=""></a>
-      <a href="https://tastysites.pl/websites/hq-bio"><img src="~assets/websites/hqbio.png" alt=""></a>
+      <a href="https://tastysites.pl/websites/hq-bio"><img src="~assets/websites/hq-bio.gif" alt=""></a>
       <a href="https://314.pl/"><img src="~assets/websites/interactive-314.jpg" alt=""></a>
       <a href="https://just-ads.netlify.app/"><img src="~assets/websites/justads.png" alt=""></a>
       <a href="https://page-404-02.netlify.app/"><img src="~assets/websites/page-404.png" alt=""></a>

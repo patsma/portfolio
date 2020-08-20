@@ -6,12 +6,15 @@ $hd: 1919px;
 
 // Colors
 $white: #fff;
+$darkBlue: #264653;
+$orange: #E76F51;
 
-
+// Layout for item
 main.default {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  background: $orange;
 
   @media screen and (min-width: 800px) {
     grid-template-columns: 1fr 1fr;
@@ -19,6 +22,12 @@ main.default {
 
   a {
     height: 100%;
+    background: transparent url('~assets/oval.svg') center no-repeat;
+    min-height: 300px;
+    max-height: 600px;
+    @media screen and (min-width: $desktop) {
+      height: 600px;
+    }
   }
 
 
@@ -35,5 +44,18 @@ main.default {
   }
 }
 
+// Navigation acrive element
+
+.nuxt-link-exact-active {
+  p {
+    color: $darkBlue;
+  }
+
+  svg {
+    path {
+      fill: $darkBlue
+    }
+  }
+}
 
 

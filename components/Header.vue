@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 header {
   display: grid;
   align-content: center;
@@ -32,7 +32,7 @@ header {
   z-index: 2;
   position: fixed;
   width: 100vw;
-  background: #264653;
+  background: $darkBlue;
 }
 
 </style>

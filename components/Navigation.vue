@@ -150,7 +150,7 @@ svg {
 }
 
 nav {
-  background: #E76F51;
+  background: $orange;
   display: grid;
   padding: 1vmin;
   align-content: space-around;
